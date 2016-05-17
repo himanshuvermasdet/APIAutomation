@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.proptiger.qa.api.test.MediaServiceTestClass">
+        <methods>
+          <include name="afterEveryClass"/>
+          <include name="beforeEveryMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="createIDList"/>
+          <include name="deleteImageIds"/>
+          <include name="afterEachTestCycle"/>
+          <include name="getImage" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setUpEnvironment"/>
+          <include name="beforeEveryClass"/>
+          <include name="initializeClassCustomerLoganBFF"/>
+        </methods>
+      </class> <!-- com.proptiger.qa.api.test.MediaServiceTestClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
